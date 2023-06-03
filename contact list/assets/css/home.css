@@ -1,0 +1,111 @@
+
+
+body{
+    text-align: center;
+    margin: 0;
+}
+/* .contact{
+    display: flex;
+    flex-direction: row;
+   
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+.details{
+    display: flex;
+ 
+   
+    padding: 10px;
+    align-items: center;
+    padding-left: 40%;
+
+}
+.delete-button{
+    padding-right: 50%;
+} */
+.contact{
+    padding: 3px 10px;
+    border: 1px solid whitesmoke;
+    background-color: blue;
+    color: white;
+    box-shadow: 1px 1px 1px 1px red;
+    display: flex;
+    width:25rem;
+    
+}
+.contact .details{
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    
+}
+.contact .delete-button{
+    width: 4%;
+    padding: 3px;
+    text-align: center;
+    margin-top: 5px;
+}
+.contact p{
+    margin: 5px 0;
+   
+}
+#center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 3rem;
+   
+}
+.delete-button{
+    padding-left: 10px;
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    
+}
+#p-center{
+    padding-right:70px;
+}
+/* #l-center{
+    padding-left: 10px;
+} */
+.delete-button i{
+    color: red;
+}
+#new-contact-form input{
+    border:hidden;
+   border-bottom: 2px solid green;
+}
+#new-contact-form input:hover{
+    border: 2px solid rgb(255, 4, 4);
+}
+#button-design{
+    color: blue;
+    background-color: red;
+    border: 2px solid blue;
+}
+.delete-button i:hover{
+    color: green;
+}
+#button-design:hover{
+    background-color: aqua;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* *{
+    font-family: cursive;
+} */
+/*BACKGROUND COLOR */
